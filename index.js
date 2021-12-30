@@ -31,6 +31,6 @@ async function main() {
 main();
 
 // LISTEN
-app.listen(process.env.PORT, ()=>{
+app.listen(3000, ()=>{
     console.log("Express is running")
 })
